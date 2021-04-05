@@ -11,16 +11,17 @@ source:
   sha256: ced88ee14183b9f95b2cb6cdb17bf7382499fad187dee0dace6891874ae4b182
 
 build:
-  number: 1
+  number: 3
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
     - pypandoc
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - typing_extensions >=3.7.4
 
 test:
