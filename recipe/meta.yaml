@@ -1,5 +1,5 @@
 {% set name = "injector" %}
-{% set version = "0.18.4" %}
+{% set version = "0.19.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/injector-{{ version }}.tar.gz
-  sha256: ced88ee14183b9f95b2cb6cdb17bf7382499fad187dee0dace6891874ae4b182
+  sha256: 3eaaf51cd3ba7be1354d92a5210c8bba43dd324300eafd214e1f2568834a912f
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
