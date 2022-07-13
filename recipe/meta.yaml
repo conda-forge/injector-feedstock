@@ -1,5 +1,5 @@
 {% set name = "injector" %}
-{% set version = "0.20.0" %}
+{% set version = "0.20.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/injector-{{ version }}.tar.gz
-  sha256: 0c82dedc8e1354e8fd22ab3d99b88bddef6dedb9c77d6c22c4d89db3d15837f5
+  sha256: 8661b49a2f8309ce61e3a6a82b7acb5e225c4bde8e17d1610c893a670dff223a
 
 build:
   number: 0
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - pypandoc <1.8
+    - pypandoc
     - python >=3.7
   run:
     - python >=3.7
