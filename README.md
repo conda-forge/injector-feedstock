@@ -1,11 +1,11 @@
-About injector
-==============
+About injector-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/injector-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/alecthomas/injector
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/injector-feedstock/blob/main/LICENSE.txt)
 
 Summary: Injector - Python dependency injection framework, inspired by Guice
 
