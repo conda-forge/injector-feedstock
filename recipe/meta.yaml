@@ -1,5 +1,5 @@
 {% set name = "injector" %}
-{% set version = "0.23.0" %}
+{% set version = "0.24.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/injector-{{ version }}.tar.gz
-  sha256: 7e59db84faa5358474c8ee05abca6ab6bd02519fbefcf175e0b230ee7d2d4bac
+  sha256: e85a75d1516cff2f03170f3fd1219f56acb25c9a05e307819ae0dcde3dad3d3f
 
 build:
   number: 0
